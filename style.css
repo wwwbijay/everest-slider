@@ -1,0 +1,74 @@
+/* CSS Document */
+body{
+  margin: 0;
+	padding: 0;
+	background: #eee;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+.clear{clear: both;}	
+.wdt100{width: 100%;}	
+.fleft{float: left}	
+.fright{float: right}	
+.wrapper{
+	width: 90%;
+	margin: 0 5%;
+	padding: 20px 0;
+	
+	}
+h1.title{
+	color: #C00;
+	margin: 8px 0;
+	}
+h1.title span{
+	color: #039;
+	}	
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+.navigation{
+	margin: 10px 0 0 0;
+	}
+.navigation li{
+	display: inline;
+	float:left;
+	line-height: 31px;
+	}
+.navigation li a{
+	color: #777;
+	font-size: 14px;
+	float:left;
+	font-weight: bold;
+	display: block;
+	line-height: inherit;
+	text-decoration: none;
+	padding: 0 13px;
+	}
+.navigation li a:hover{
+	color: #333;
+	}	
+.navigation li.active a{
+	color: #333;
+	border-bottom: 4px solid #03C;
+	}
+.slideshow,
+.container{
+	background: #fff;
+	padding: 55px 5%;
+    width: 90%;
+	}
+.container ul{
+	padding-left: 22px;
+	list-style: disc;
+	}	
+.code_wrap{
+	padding: 10px;
+	border: 1px solid #ccc;
+	}	
+.footer{
+	text-align: center;
+	margin: 10px 0;
+  	font-size: 12px;
+	color: #777;
+	}	
